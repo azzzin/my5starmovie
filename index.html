@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my5starmovie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <!-- 홈 페이지 -->
+        <div id="home-page" class="page active">
+            <div class="home-container">
+                <h1 class="site-title">my5starmovie</h1>
+                <div class="movie-buttons">
+                    <button class="movie-button" data-movie="dusk-till-dawn">황혼에서 새벽까지</button>
+                    <button class="movie-button" data-movie="kpop-demon-hunters">케이팝 데몬 헌터스</button>
+                    <button class="movie-button" data-movie="substance">서브스턴스</button>
+                    <button class="movie-button" data-movie="alien">에이리언</button>
+                    <button class="movie-button" data-movie="everything-everywhere">에브리씽 에브리웨어 올 앳 원스</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- 영화 상세 페이지 -->
+        <div id="detail-page" class="page">
+            <div class="detail-container">
+                <button class="back-button" onclick="goBack()">&lt;</button>
+                <div id="movie-content"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+

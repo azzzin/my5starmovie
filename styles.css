@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    background-color: #FF6B35;
+    min-height: 100vh;
+}
+
+.page {
+    display: none;
+    min-height: 100vh;
+}
+
+.page.active {
+    display: block;
+}
+
+/* 홈 페이지 스타일 */
+.home-container {
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.site-title {
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.movie-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.movie-button {
+    background-color: #E0E0E0;
+    color: #FF6B35;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: left;
+}
+
+.movie-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.movie-button:active {
+    transform: translateY(0);
+}
+
+/* 상세 페이지 스타일 */
+.detail-container {
+    background-color: #F5F5F5;
+    min-height: 100vh;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.back-button {
+    background: none;
+    border: none;
+    font-size: 32px;
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    opacity: 0.7;
+}
+
+.movie-header {
+    margin-bottom: 20px;
+}
+
+.movie-title-kr {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.header-line {
+    border: none;
+    border-top: 1px solid black;
+    margin: 10px 0;
+}
+
+.movie-info {
+    margin-top: 20px;
+}
+
+.movie-title-en {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 8px;
+}
+
+.movie-details {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.movie-runtime {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.star-rating {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 60px;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    background-color: #FF6B35;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star.half {
+    position: relative;
+    background-color: #E0E0E0;
+}
+
+.star.half::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    background-color: #FF6B35;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}
+
+.star.empty {
+    background-color: #E0E0E0;
+}
+
+.plot-section {
+    margin-bottom: 58px;
+}
+
+.plot-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    white-space: pre-line;
+}
+
+.review-section {
+    margin-top: 58px;
+}
+
+.review-line {
+    border: none;
+    border-top: 1px solid black;
+    margin-bottom: 20px;
+}
+
+.review-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.review-box {
+    background-color: #FF6B35;
+    padding: 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.review-text {
+    color: white;
+    font-size: 16px;
+    line-height: 1.6;
+    white-space: pre-line;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+    .home-container {
+        padding: 30px 15px;
+    }
+
+    .site-title {
+        font-size: 28px;
+        margin-bottom: 30px;
+    }
+
+    .movie-button {
+        padding: 18px;
+        font-size: 16px;
+    }
+
+    .detail-container {
+        padding: 15px;
+    }
+
+    .movie-title-kr {
+        font-size: 20px;
+    }
+
+    .movie-title-en {
+        font-size: 18px;
+    }
+
+    .plot-text {
+        font-size: 14px;
+    }
+
+    .review-text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-title {
+        font-size: 24px;
+    }
+
+    .movie-button {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    .movie-title-kr {
+        font-size: 18px;
+    }
+
+    .star {
+        width: 20px;
+        height: 20px;
+    }
+}
+
