@@ -78,8 +78,11 @@ body {
     color: black;
     cursor: pointer;
     padding: 10px;
-    margin-bottom: 10px;
+    margin: 0 auto 10px auto;
     font-weight: bold;
+    display: block;
+    text-align: center;
+    width: fit-content;
 }
 
 .back-button:hover {
@@ -100,8 +103,9 @@ body {
 
 .header-line {
     border: none;
-    border-top: 1px solid black;
+    border-top: 3px solid black;
     margin: 10px 0;
+    width: 100%;
 }
 
 .movie-info {
@@ -157,6 +161,14 @@ body {
 
 .star.empty {
     background-color: #E0E0E0;
+}
+
+/* 피그마 별 모양 이미지 스타일 */
+.star-img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    object-fit: contain;
 }
 
 .plot-section {

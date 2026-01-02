@@ -16,19 +16,29 @@ const movies = {
     'kpop-demon-hunters': {
         titleKr: '케이팝 데몬 헌터스',
         titleEn: 'K-Pop Demon Hunters',
-        details: '2022·애니메이션/액션·미국',
-        runtime: '정보 없음',
-        rating: 0,
-        plot: '줄거리 정보가 없습니다.',
-        review: ['한줄평이 없습니다.']
+        details: '2025·애니메이션/음악/코미디/모험·미국',
+        runtime: '1시간 35분 · 12세',
+        rating: 5,
+        plot: `전 세계적인 인기를 누리는 케이팝 걸그룹이 사실은 악마를 사냥하는 비밀 조직이라는 설정에서 이야기가 시작됩니다.
+무대 위에서는 완벽한 아이돌이지만, 무대 아래에서는 인간 세상에 숨어든 악마들과 싸우는 이중생활을 하고 있죠.
+이들에게 음악과 퍼포먼스는 단순한 공연이 아니라 악마를 제압하는 가장 강력한 무기입니다.
+하지만 어느 순간, 악마들 역시 아이돌의 모습으로 인간 사회에 스며들고 있다는 사실이 드러납니다.
+주인공들은 자신들의 정체를 숨긴 채 더 위험한 싸움에 뛰어들게 됩니다.
+그 과정에서 팀 내 갈등과 각자의 불안이 표면으로 올라오며, 서로를 믿는 일이 가장 큰 과제가 됩니다.`,
+        review: [
+            '케데헌 3회차 드가야지','미라너무예쁘다','목욕탕 시퀀스 너무좋음 이거보려고케데헌켰다 케데헌은진짜전설이다...'
+        ]
     },
     'substance': {
         titleKr: '서브스턴스',
         titleEn: 'Substance',
-        details: '정보 없음',
-        runtime: '정보 없음',
-        rating: 0,
-        plot: '줄거리 정보가 없습니다.',
+        details: '2024 · 공포/드라마 · 영국, 미국',
+        runtime: '2시간 21분 · 청불',
+        rating: 5,
+        plot: `서브스턴스는 한때 스타였지만 나이 듦으로 밀려난 여성이 ‘더 나은 나’를 만들어준다는 의문의 약물을 접하며 시작되는 이야기입니다. 그 약물은 젊고 완벽한 또 다른 자아를 만들어내고, 두 존재는 하나의 삶을 나눠 살아가야 한다는 규칙을 따르게 됩니다. 처음에는 잃어버린 명성과 욕망을 되찾은 듯 보이지만, 점점 통제는 무너지고 균형은 깨집니다.
+젊음과 성공을 향한 집착은 두 자아 사이의 갈등을 낳고, 몸과 정체성의 경계도 서서히 붕괴됩니다.
+영화는 사회가 요구하는 ‘이상적인 몸’과 자기혐오를 극단적인 신체 공포로 밀어붙입니다.
+결국 이 선택이 무엇을 대가로 요구하는지, 그리고 진짜 ‘나’란 무엇인지 잔혹하게 드러냅니다..`,
         review: ['한줄평이 없습니다.']
     },
     'alien': {
@@ -36,16 +46,22 @@ const movies = {
         titleEn: 'Alien',
         details: '1979·SF/공포·영국, 미국',
         runtime: '1시간 57분·15세 관람가',
-        rating: 0,
-        plot: '줄거리 정보가 없습니다.',
-        review: ['한줄평이 없습니다.']
+        rating: 5,
+        plot: `2122년. 상업 우주 화물선 '노스트로모'호는 2천만 톤의 광물을 싣고 승무원 일곱 명과 함께 지구로 향하고 있다. 우주선의 메인 컴퓨터 MU-TH-R 182, 약칭 "마더(Mother)"는 한 혹성의 궤도를 선회하는 위성에서 정체를 알 수 없는 신호를 포착한다. 미리 프로그램된 대로 "마더"는 이 신호를 탐색하기 위해 동면해 있는 승무원들을 깨운다. 
+        '노스트로모'호는 광물운반과 채굴장비로부터 분리되어 위성에 착륙을 시도하고, 위성에 하강하는 도중에 약간의 손상을 입는다.
+선장 달라스(톰 스케릿), 부선장 케인(존 허트), 항법사 램버트(베로니카 카트라이트)는 신호를 조사하기 위해 우주선을 떠난다. 그들은 오래전에 추락한 알 수 없는 문명의 비행선과 조우하게 되고, 그 비행선 안에서 미이라화한 파일럿을 발견한다. 
+케인은 파일럿 근처에서 구멍을 발견하고 거기로 내려가 수천 개의 거죽에 둘러싸인 알들을 발견한다. 그중 알 하나가 열려, 안에서 튀어나온 '페이스 허거'가 케인이 쓰고 있던 헬멧을 녹이고 그의 얼굴에 달라붙는다. 달라스와 램버트는 정신을 잃은 케인을 데리고 '노스트로모'호로 돌아온다. 
+리플리(시고니 위버)는 '달라스'와 '케인'이 부재시 명령권이 있는 장교로 검역절차에 따라 그들이 선내에 들어오는 것을 거부했지만, 과학장교 애쉬(이안 홈)가 리플리의 결정에 불복종하여 그들을 우주선 안으로 들인다. 
+우주선의 의무실에서 달라스와 애쉬는 케인의 얼굴에 달라붙은 괴물을 케인에게 해를 입히지 않고 떼어내기는 불가능했고, 괴물의 관절부위를 잘라내려 하자 강산성 체액이 뿜어나와 우주선 바닥을 수겹이나 뚫었다. 이것이 괴물의 '치명적인 방어기제'였다. 
+선원들은 그래서 괴물을 떼어내기를 포기했고 괴물은 얼마후 케인의 얼굴에서 스스로 떨어져 죽어 버린다. 이후 케인은 겉으로 보기에 아무 문제없이 깨어난다.`,
+        review: ['에이리언1 보고있는데 너무재미잇슴','오늘 에이리언 광고보고 제모노프섹시하다햇다가 한소리들었음']
     },
     'everything-everywhere': {
         titleKr: '에브리씽 에브리웨어 올 앳 원스',
         titleEn: 'Everything Everywhere All at Once',
         details: '2022·액션/코미디/드라마·미국',
         runtime: '2시간 19분·15세 관람가',
-        rating: 0,
+        rating: 5,
         plot: '줄거리 정보가 없습니다.',
         review: ['한줄평이 없습니다.']
     },
@@ -90,28 +106,15 @@ function goBack() {
 }
 
 // 별점 표시 함수
-function renderStars(rating) {
-    const fullStars = Math.floor(rating);
-    const hasHalfStar = rating % 1 >= 0.5;
-    const emptyStars = 5 - fullStars - (hasHalfStar ? 1 : 0);
-    
+// 이 사이트는 항상 5개짜리 별만 표시합니다
+const STAR_FILLED_PATH = 'images/fillstar.svg'; // 꽉 찬 별 경로
+
+function renderStars() {
+    // 항상 5개의 꽉 찬 별만 표시
     let starsHtml = '';
-    
-    // 꽉 찬 별
-    for (let i = 0; i < fullStars; i++) {
-        starsHtml += '<div class="star"></div>';
+    for (let i = 0; i < 5; i++) {
+        starsHtml += `<img src="${STAR_FILLED_PATH}" alt="별" class="star-img star-filled" />`;
     }
-    
-    // 반 별
-    if (hasHalfStar) {
-        starsHtml += '<div class="star half"></div>';
-    }
-    
-    // 빈 별
-    for (let i = 0; i < emptyStars; i++) {
-        starsHtml += '<div class="star empty"></div>';
-    }
-    
     return starsHtml;
 }
 
@@ -130,7 +133,7 @@ function renderMovieDetail(movieId) {
             <div class="movie-details">${movie.details}</div>
             <div class="movie-runtime">${movie.runtime}</div>
             <div class="star-rating">
-                ${renderStars(movie.rating)}
+                ${renderStars()}
             </div>
         </div>
         <div class="plot-section">
