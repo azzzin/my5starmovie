@@ -106,7 +106,7 @@ body {
 .detail-header .movie-title {
     font-size: 28px;
     font-weight: bold;
-    color: #F75C02; /* 예시 색상 */
+    color: black; /* 검은색으로 변경 */
     margin: 0;
 }
 

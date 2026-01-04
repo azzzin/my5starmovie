@@ -128,7 +128,6 @@ function renderMovieDetail(movieId) {
     
     const content = `
         <div class="movie-header">
-            <div class="movie-title-kr">${movie.titleKr}</div>
             <hr class="header-line">
         </div>
         <div class="movie-info">
