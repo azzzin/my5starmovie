@@ -122,6 +122,9 @@ function renderStars() {
 function renderMovieDetail(movieId) {
     const movie = movies[movieId];
     if (!movie) return;
+
+    // 영화 제목 설정 (index.html에서 추가한 h1.movie-title)
+    document.querySelector('.detail-header .movie-title').textContent = movie.titleKr;
     
     const content = `
         <div class="movie-header">
